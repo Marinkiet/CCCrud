@@ -41,5 +41,11 @@
           <mat-option value="No">No</mat-option>
         </mat-select>
       </mat-form-field>
+      
+      <div mat-dialog-action [align]="'end'">
+        <button mat-raised-button color="warn" mat-dialog-close="">Close</button>
+        <button (click)="saveForm()" style="margin-left:10px" mat-raised-button color="primary" routerLink="/qrcode">Submit</button>
+      
+      </div>
 
     

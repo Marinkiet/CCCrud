@@ -21,6 +21,9 @@ export class FormDialogComponent implements OnInit {
       lossOfTaste: ['', Validators.required],
       heavyHeadache: ['', Validators.required],
     });
-
+}
+saveForm() {
+          this.covidForm.reset();
+          this.dialogRef.close('Saved');
 }
 }

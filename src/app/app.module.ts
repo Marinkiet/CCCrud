@@ -19,11 +19,16 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { FormDialogComponent } from './form-dialog/form-dialog.component';
-
+import { QrcodeComponent } from './qrcode/qrcode.component';
+import { ResultsComponent } from './results/results.component';
+import { OfficerComponent } from './officer/officer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FormDialogComponent
+    FormDialogComponent,
+    QrcodeComponent,
+    ResultsComponent,
+    OfficerComponent,
   ],
   imports: [
     BrowserModule,
